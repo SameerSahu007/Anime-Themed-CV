@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+   
+
+body{
+    margin : 0;
+    padding: 0;
+    background-image: url("images/bg2.jpg");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box{
+ color: #fff;
+ text-align: center;
+ background: rgba(0, 0, 0, 0.6);
+ padding: 15px 450px 0 450px;
+ height: 100vh;
+
+ /* margin: auto; */
+ /* margin-top: 5%; */
+border-radius: 2%;
+
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+}
+
+.main-heading{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.sub-heading{
+    font-size: 25px;
+    letter-spacing : 3px;
+    font-weight: 100;
+}
+
+.description{
+text-align: center;
+line-height: 25px;
+}
+
+ul{
+    margin: 0%;
+    padding: 0; 
+
+}
+
+.box li{
+    display: inline-block;
+    margin: 12px;
+    list-style: none;
+}
+
+.box li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    transition: all ease ease-in-out 250ms;
+}
+
+.box li a:hover{
+   color: #888282; 
+}
